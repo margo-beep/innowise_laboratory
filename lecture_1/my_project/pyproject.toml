@@ -1,0 +1,15 @@
+[project]
+name = "LabPy"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "margo-beep", email = "margaritalozinskaya0@gmail.com"},
+]
+dependencies = ["Colorama==0.4.6"]
+requires-python = "==3.14.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
