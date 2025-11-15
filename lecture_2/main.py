@@ -1,6 +1,3 @@
-from profile import Profile
-
-
 def generate_profile(age):
     age = int(age)
     if age < 13:
